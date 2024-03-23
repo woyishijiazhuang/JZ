@@ -19,7 +19,8 @@ export const routes = [
             { path: "border", name: "边框", meta: { show: true }, component: () => import("@/components/interaction/BorderRadius.vue") },
             { path: "progressCanvas", name: "进度一", meta: { show: true }, component: () => import("@/components/interaction/ProgressCanvas.vue") },
             { path: "progressSvg", name: "进度二", meta: { show: true }, component: () => import("@/components/interaction/ProgressSvg.vue") },
-            { path: "book", name: "相册", meta: { show: true }, component: () => import("@/components/interaction/BookVue/MyBook.vue") }
+            { path: "book", name: "相册", meta: { show: true }, component: () => import("@/components/interaction/BookVue/MyBook.vue") },
+            { path: "konva", name: "画布", meta: { show: true }, component: () => import("@/components/interaction/Konva.vue") }
         ]
     },
     {
